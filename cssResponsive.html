@@ -5,7 +5,9 @@
       body {
         margin-left: 2%;
         margin-right: 2%;
-        padding: 5%;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin-top: 0px;
         box-sizing: border-box;
         background-color: #f7f1a8;
       }
@@ -15,17 +17,25 @@
         justify-content: center;
       }
       h1 {
+        color: #ac4b1c;
+        margin-top: 0%;
         font-family: cursive;
         text-align: center;
         font-size: 300%;
-        text-shadow: #fa1111;
+      }
+      .funny {
+        margin-top: -2%;
+        text-align: center;
+        font-size: 200%;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       }
 
       img {
-        width: 15%;
-        height: 10%;
-        padding: 10px;
-        opacity: 0.7;
+        width: 17%;
+        height: 8%;
+        padding: 6px;
+        opacity: 0.6;
         transition: all 1s;
         border-width: 1px;
         border-color: yellow;
@@ -39,31 +49,25 @@
         width: 300px;
         height: auto;
         padding-left: 3px;
-        padding-right: 5px;
+        padding-right: 3px;
+        fill-opacity: initial;
         opacity: 1;
       }
     </style>
-    <title>Car Animation</title>
+    <title>Cartoon Animation</title>
   </head>
   <body>
     <div>
       <h1>CARTOONS</h1>
     </div>
     <div style="background-color: yellow">
-      <h1
-        style="
-          text-align: center;
-          font-size: 200%;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        "
-      >
-        <u>FUNNY IMAGES</u>
+      <h1 class="funny">
+        <u>FUNNY CARTOONS</u>
       </h1>
     </div>
     <div class="container">
       <img
-        src="https://cdn.pixabay.com/photo/2013/07/13/01/24/bunny-155674__340.png"
+        src="https://cdn.pixabay.com/photo/2016/04/01/08/29/animals-1298747__340.png"
         alt="img1"
       />
       <img
@@ -79,7 +83,7 @@
         alt="img1"
       />
       <img
-        src="https://cdn.pixabay.com/photo/2016/04/01/08/29/animals-1298747__340.png"
+        src="https://cdn.pixabay.com/photo/2013/07/13/01/24/bunny-155674__340.png"
         alt="img1"
       />
       <img
@@ -90,9 +94,24 @@
         src="https://cdn.pixabay.com/photo/2017/01/31/20/12/animal-2026944__340.png"
         alt="img1"
       />
-      
     </div>
-      
+    <footer
+      class="footer"
+      style="
+        background-color: grey;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        align-items: center;
+        height: 7%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      "
+    >
+      &#169;Anup Mishra | 1906031
+    </footer>
   </body>
 </html>
-
