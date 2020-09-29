@@ -1,0 +1,28 @@
+h4 {
+  margin-top: 4%;
+}
+
+table {
+  margin-top: 1%;
+}
+.footer {
+  background-color: grey;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  height: auto;
+  margin-bottom: 0%;
+}
+
+img {
+  width: 5%;
+  height: auto;
+  border-radius: 100px;
+  margin-left: 4%;
+}
+
+.navbar-nav {
+  margin-left: 4%;
+  font-size: 20px;
+  align-items: center;
+}
