@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       body {
         margin-left: 2%;
@@ -22,14 +23,24 @@
         font-family: cursive;
         text-align: center;
         font-size: 300%;
+        animation: colorChange 0.5s infinite;
       }
       .funny {
         margin-top: -2%;
         text-align: center;
+        font-family: cursive;
         font-size: 200%;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+       
       }
+
+
+@keyframes colorChange{
+    0%{color: red;}
+    25%{color: #0278ae;}
+    50%{color: red;}
+    100%{color: #0278ae;}
+}
+
 
       img {
         width: 17%;
@@ -52,6 +63,8 @@
         padding-right: 3px;
         fill-opacity: initial;
         opacity: 1;
+        transform: rotate(40deg);
+    
       }
     </style>
     <title>Cartoon Animation</title>
